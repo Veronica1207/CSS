@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html lang="en">
+    <!--
+    author: Veronica Logvinenko, A01208105
+    version: 1.0
+    date: 2021-01-24 
+    -->
+    <head>
+        <title>CSS Selectors</title>
+        <meta charset="utf-8">
+        <link href="../styles/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1 style="text-align:center;">Veronica</h1>
+                <figure id="header-figure">
+                    <img id="header-img" src="../images/banner-943866_1280.jpg" alt="Pink flowers with the sky on the background">
+                </figure>
+            </header>
+            <nav class="topnav">
+                <ul class="no-ul">
+                    <li><a href="../index.html">Homepage</a></li>
+                    <li><a href="html_semantics.html">HTML Semantics</a></li>
+                    <li><a class="active" href="css_selectors.html">CSS Selectros</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>
+                    <h2>CSS Selectros</h2>
+                    <p>I chose the following three CSS selectros: </p>
+                    <ul>
+                        <li><a href="#property01"><em>"list-style-type"</em> property </a></li>
+                        <li><a href="#property02"><em>"border-radius"</em> property</a></li>
+                        <li><a href="#property03"><em>"opacity"</em> property</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <article>
+                        <h3 id="property01">CSS <em>"list-style-type"</em> Property </h3>
+                        <h4>Overview</h4>
+                        <p>This CSS property allows you to set different list item markers for ordered or unordered lists.</p>
+                        <p>There is a wide variaty of values that can be set: none, disc, circle, square, decimal, decimal-leading-zero,
+                            armenian, georgian, lower-alpha, upper-alpha, lower-greek,
+                            lower-latin, upper-latin, lower-roman, upper-roman, inherit.</p>
+                        
+                        <h4>Syntax</h4>
+                        <p><code>ul {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;list-style-type: circle;<br>}
+                        </code></p>
+
+                        <h4>Example</h4>
+                        <ul class= ul-style01>
+                            <li>one</li>
+                            <li>two</li>
+                            <li>three</li>
+                        </ul>
+                        <ol class="ol-style01">
+                            <li>one</li>
+                            <li>two</li>
+                            <li>three</li>
+                        </ol>
+
+                        <h4>Sources</h4>
+                        <ul>
+                            <li><a href="https://www.w3schools.com/css/css_list.asp" target="_blank">CSS Lists</a></li>
+                            <li><a href="http://web.simmons.edu/~grabiner/comm244/weekthree/css-basic-properties.html#list" target="_blank">CSS Basic List properties</a></li>
+                        </ul>
+
+                    </article>
+                    
+                    <article>
+                        <h3 id="property02">CSS <em>"border-radius"</em> Property </h3>
+                        <h4>Overview</h4>
+                        <p>The border-radius property defines the radius of the element's corners. This property allows you to add rounded corners to elements.</p>
+                        <p>This property can have from one to four values. Here are the rules</p>
+                        <ul class="ul-style02">
+                            <li>
+                                <p><strong>Four values - border-radius: 15px 50px 30px 5px:</strong></p>
+                                <ol>
+                                    <li>top-left corner</li>
+                                    <li>top-right corner</li>
+                                    <li>bottom-right corner</li>
+                                    <li>bottom-left corner</li>
+                                </ol>
+                            </li>
+                            <li>
+                                <p><strong>Three values - border-radius: 15px 50px 30px:</strong></p>
+                                <ol>
+                                    <li>top-left corner</li>
+                                    <li>top-right corner and bottom-left corners</li>
+                                    <li>bottom-right corner</li>
+                                </ol>
+                            </li>
+                            <li>
+                                <p><strong>Two values - border-radius: 15px 50px:</strong></p>
+                                <ol>
+                                    <li>top-left and bottom-right corners</li>
+                                    <li>top-right and bottom-left corners</li>
+                                </ol>
+                            </li>
+                            <li>
+                                <p><strong>One value - border-radius: 15px:</strong></p>
+                                <ol>
+                                    <li>the value applies to all four corners, which are rounded equally</li>
+                                </ol>
+                            </li>
+                        </ul>
+
+                        <h4>Syntax</h4>
+                        <p><code>img {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;border-radius: 50%;<br>}
+                        </code></p>
+
+                        <h4>Example</h4>
+                        <figure>
+                            <img id="round-img" src="../images/floral-prints-.jpg" alt= "floral print">
+                            <figcaption>rounded image made with "border-radius" property</figcaption>
+                        </figure>
+                        <h4>Sources</h4>
+                        <ul>
+                            <li><a href="https://www.w3schools.com/cssref/css3_pr_border-radius.asp" target="_blank">CSS border-radius Property</a></li>
+                        </ul>
+                    </article>
+                    
+                    <article>
+                        <h3 id="property03">CSS <em>"opacity"</em> Property </h3>
+                        <h4>Overview</h4>
+                        <p>The opacity property sets the opacity level for an element.</p>
+                        <p>The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.</p>
+                        <p>Values of the <code>opacity</code> property:</p>
+                        <ul class="ul-style02">
+                            <li><em>number</em> - Specifies the opacity. From 0.0 to 1.0</li>
+                            <li><em>initial</em> - Sets this property to its default value (1.0).</li>
+                            <li><em>inherit</em> - Inherits this property from its parent element.</li>
+                        </ul>
+
+                        <h4>Syntax</h4>
+                        <p><code>img {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.6;<br>}
+                        </code></p>
+
+                        <h4>Example</h4>
+                        <figure>
+                            <img src="../images/flower_crop.jpg" alt= "floral print">
+                            <figcaption>image with opacity value 1.0</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="opacity-level" src="../images/flower_crop.jpg" alt= "floral print">
+                            <figcaption>image with opacity value 0.4</figcaption>
+                        </figure>
+                        <p>Opacity property can also be applied to text.</p>
+                        <p class="opacity-level">Like to this &lt;p&gt; element.</p>
+                        <h4>Sources</h4>
+                        <ul>
+                            <li><a href="https://www.w3schools.com/cssref/css3_pr_opacity.asp" target="_blank">CSS opacity Property</a></li>
+                            <li><a href="https://www.tutorialrepublic.com/css-reference/css3-opacity-property.php" target="_blank">Opacity property</a></li>
+                        </ul>
+                    </article>
+                </section>
+
+            </main>
+            <footer>
+                    
+                <p>Contact me:</p>
+                <ul class="no-ul">
+                <li><a href="https://www.facebook.com/veronika.logvinenko.1" target="_blank">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/veronica-logvinenko-b0555ab6/" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:logvinenkovd@gmail.com">Send Email</a></li>
+                </ul>
+                <p>Veronica Logvinenko</p>
+                <p>COMP1850</p>               
+            </footer>
+
+        </div>
+    </body>
+</html>

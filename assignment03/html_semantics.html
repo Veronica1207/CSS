@@ -1,0 +1,140 @@
+<!doctype html>
+
+<html lang="en">
+    <!--
+    author: Veronica Logvinenko, A01208105
+    version: 1.0
+    date: 2021-01-24 
+    -->
+    <head>
+        <title>HTML Semantics</title>
+        <meta charset="utf-8">
+        <link href="../styles/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1 style="text-align:center;">Veronica</h1>
+                <figure id="header-figure">
+                    <img id="header-img" src="../images/banner-943866_1280.jpg" alt="Pink flowers with the sky on the background">
+                </figure>
+            </header>
+            <nav class="topnav">
+                <ul class="no-ul">
+                    <li><a href="../index.html">Homepage</a></li>
+                    <li><a class="active" href="html_semantics.html">HTML Semantics</a></li>
+                    <li><a href="css_selectors.html">CSS Selectros</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>
+                    <h2>HTML Tags</h2>
+                    <p>I chose the following three HTML tags: </p>
+                    <ul>
+                        <li><a href="#tag01">&lt;code&gt; tag</a></li>
+                        <li><a href="#tag02">&lt;details&gt; tag</a></li>
+                        <li><a href="#tag03">&lt;summary&gt; tag</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <article>
+                        <h3 id="tag01">HTML &lt;code&gt; Tag</h3>
+                        <h4>Overview</h4>
+                        <p>The <code>&lt;code&gt;</code>tag represents a fragment of computer code — for example, a snippet of HTML or CSS, or some other programming language code.</p>
+                        <p>This is an <strong>inline</strong> tag.</p>
+                        <p>By default the content of <code>&lt;code&gt;</code> element is displayed in a monospace (fixed-width) font, such as "Courier", but this style can be overridden using the CSS <em>font-family</em> property.</p>
+                            
+                        <h4>Syntax</h4>
+                        <p>The basic syntax of the <code>&lt;code&gt;</code> element: </p>
+                        <p><em>&lt;code&gt;...&lt;/code&gt;</em></p>
+
+                        <h4>Example</h4>
+                        <p><code>&lt;p&gt;Regular text. &lt;code&gt;computer code&lt;/code&gt; Regular text.&lt;/p&gt;</code></p>
+                            
+                        <h4>Sources</h4>
+                        <ul>
+                            <li><a href="https://www.tutorialrepublic.com/html-reference/html-code-tag.php" target="_blank">TutorialRepublic - HTML &lt;code&gt; Tag</a></li>
+                        </ul>
+                        
+                    </article>
+                    
+                    <article>
+                        <h3 id="tag02">HTML &lt;details&gt; Tag</h3>
+                        <h4>Overview</h4>
+                        <p>The <code>&lt;details&gt;</code> tag specifies additional details that the user can open and close on demand.</p>
+                        <p>This tag is often used to create an interactive widget that the user can open and close. By default, the widget is closed. When open, it expands, and displays the content within.</p>
+                        <p>Ths is a <strong>block </strong>tag.</p>
+
+                        <h4>Syntax</h4>
+                        <p>The basic syntax of the <code>&lt;details&gt;</code> tag:</p>
+                        <p><em>&lt;details&gt;...&lt;/details&gt;</em></p>
+                        
+                        <p><strong><em>NOTE: </em></strong>The <code><a href="#tag03">&lt;summary&gt;</a></code> tag is used in conjuction with <code>&lt;details&gt;</code> to specify a visible heading for the details.</p>
+                        <h4>Example</h4>
+                        <p>
+                            <code>&lt;details&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;HTML is a markup language for describing the structure of web pages.&lt;/p&gt;<br>
+                            &lt;/details&gt;</code>
+                        </p>
+
+                        <p>This is how it is displayed on the page:</p>
+                        <details>
+                            <p>HTML is a markup language for describing the structure of web pages.</p>
+                        </details>
+                        
+                        <h4>Sources</h4>
+                        <ul>
+                            <li><a href="https://www.w3schools.com/tags/tag_details.asp" target="_blank">w3schools HTML &lt;details&gt; Tag</a></li>
+                            <li><a href="https://www.tutorialrepublic.com/html-reference/html5-details-tag.php" target="_blank">TutorialRepublic - HTML5 &lt;details&gt; Tag</a></li>
+                        </ul>
+                    
+                        </article>
+                    
+                    <article>
+                        <h3 id="tag03">HTML &lt;summary&gt; Tag</h3>
+                        <h4>Overview</h4>
+                        <p>The <code>&lt;summary&gt;</code> tag defines a visible heading for the &lt;details&gt; element. The heading can be clicked to view/hide the details.</p>
+                        <p>The &lt;summary&gt; element should be the first child element of the &lt;details&gt; element.</p>
+                        <p>This is a <strong>block</strong> tag.</p>
+                        <h4>Syntax</h4>
+                        <p>The basic syntax of the <code>&lt;summary&gt;</code> tag:</p>
+                        <p><em>&lt;summary&gt;...&lt;/summary&gt;</em></p>
+                        
+                        <h4>Example</h4>
+                        <p>
+                            <code>&lt;details&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;summary&gt;What is HTML?&lt;/summary&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;HTML is a markup language for describing the structure of web pages.&lt;/p&gt;<br>
+                            &lt;/details&gt;</code>
+                        </p>
+
+                        <p>This is how it is displayed on the page:</p>
+                        <details>
+                            <summary>What is HTML?</summary>
+                            <p>HTML is a markup language for describing the structure of web pages.</p>
+                        </details>
+
+                        <h4>Sources</h4>
+                        <ul>
+                            <li><a href="https://www.w3schools.com/tags/tag_summary.asp" target="_blank">w3schools HTML &lt;summary&gt; Tag</a></li>
+                            <li><a href="https://www.tutorialrepublic.com/html-reference/html5-summary-tag.php" target="_blank">TutorialRepublic HTML5 &lt;summary&gt; Tag</a></li>
+                        </ul>                   
+                    </article>
+                </section>
+            </main>
+
+            <footer>
+                    
+                <p>Contact me:</p>
+                <ul class="no-ul">
+                <li><a href="https://www.facebook.com/veronika.logvinenko.1" target="_blank">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/veronica-logvinenko-b0555ab6/" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:logvinenkovd@gmail.com">Send Email</a></li>
+                </ul>
+                <p>Veronica Logvinenko</p>
+                <p>COMP1850</p>               
+            </footer>
+
+        </div>
+    </body>
+</html>

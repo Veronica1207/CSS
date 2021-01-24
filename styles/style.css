@@ -1,0 +1,163 @@
+
+body{
+	font-family: "Helvetica";
+	margin:0px;
+	background-color: #A9DEF9;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 20em;
+}
+
+h1 {
+    color: #F694C1;
+}
+
+h2 {
+    color: #86caec;
+}
+
+h3{
+    color: #78eea7;
+}
+
+figure {
+	margin-left: auto;
+    margin-right: auto;
+    width:20em;
+    max-width: 100%;
+	text-align:center;
+}
+
+figcaption {
+	text-align:center;
+	font-style:italic;
+	color:#508bce;
+	padding-top:10px;
+}
+
+strong {
+    color: #F694C1;
+}
+
+footer {
+    font-style:italic;
+    margin-top: 70px;
+    text-align: center;
+
+}
+
+code {
+    background-color: #FFEAEA;
+}
+
+#wrapper{
+	width:80%;
+	margin:0px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	background-color: white;
+	position:relative;
+}
+
+.no-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-style01 {
+    list-style-type: armenian;
+}
+.ul-style02{
+    list-style-type: circle;
+}
+.ol-style01 {
+    list-style-type: upper-roman;
+}
+
+.opacity-level {
+    opacity: 0.4;
+}
+
+.topnav {
+    background-color: white;
+    overflow:hidden;
+}
+
+.topnav a {
+    float:left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:visited {
+	background-color: white;
+	color:#bb2c9e;			
+}
+
+.topnav a:hover {
+    background-color:#D3F8E2;
+    color: #F694C1;
+}
+
+.topnav a.active {
+    background-color: #E4C1F9;
+    color:white;
+}
+
+a:link {
+    color: #bb2c9e;
+} 
+
+a:visited{
+	background-color: white;
+	color:#500e64;			
+}
+
+a:hover{
+	background-color:#D3F8E2;
+	color: #508bce;
+	text-decoration:none;
+}
+
+a:active{
+	background-color:white;
+	color:#F694C1;			
+}
+
+a:focus{
+	background-color:#A9DEF9;
+	color:#e64892;
+	text-decoration:none;
+}
+
+#header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 60em;
+    max-width: 100%;              
+}
+#header-figure{
+    width:60em;
+    max-width: 100%;
+}
+
+#round-img {
+    border-radius: 50%;
+}
+
+
+
+
+
